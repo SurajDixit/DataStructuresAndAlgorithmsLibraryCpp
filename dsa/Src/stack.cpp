@@ -3,7 +3,7 @@ Copyright (c) by Suraj.U.Dixit. All rights reserved.
 Code written and published by Suraj U Dixit.
 */
 
-#include "stack.h"
+#include "includes\stack.h"
 
 namespace datastructures
 {

@@ -1,51 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="linkedlist.cpp">
+    <ClCompile Include="Src\linkedlist.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="queue.cpp">
+    <ClCompile Include="Src\queue.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="search.cpp">
+    <ClCompile Include="Src\search.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="stack.cpp">
+    <ClCompile Include="Src\stack.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="tree.cpp">
+    <ClCompile Include="Src\tree.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="linkedlist.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Src\includes\linkedlist.h">
+      <Filter>includes</Filter>
     </ClInclude>
-    <ClInclude Include="queue.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Src\includes\queue.h">
+      <Filter>includes</Filter>
     </ClInclude>
-    <ClInclude Include="search.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Src\includes\search.h">
+      <Filter>includes</Filter>
     </ClInclude>
-    <ClInclude Include="stack.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Src\includes\stack.h">
+      <Filter>includes</Filter>
     </ClInclude>
-    <ClInclude Include="tree.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Src\includes\tree.h">
+      <Filter>includes</Filter>
     </ClInclude>
-    <ClInclude Include="commonheaders.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Src\includes\commonheaders.h">
+      <Filter>includes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Headers">
-      <UniqueIdentifier>{c3d9faed-3a5c-4994-977b-da629e705252}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src">
       <UniqueIdentifier>{5511c98f-c838-41d5-b509-a03ce9254908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{c3d9faed-3a5c-4994-977b-da629e705252}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

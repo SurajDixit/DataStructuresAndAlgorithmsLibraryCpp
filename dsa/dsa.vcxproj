@@ -132,19 +132,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="linkedlist.cpp" />
-    <ClCompile Include="queue.cpp" />
-    <ClCompile Include="search.cpp" />
-    <ClCompile Include="stack.cpp" />
-    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="Src\linkedlist.cpp" />
+    <ClCompile Include="Src\queue.cpp" />
+    <ClCompile Include="Src\search.cpp" />
+    <ClCompile Include="Src\stack.cpp" />
+    <ClCompile Include="Src\tree.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="commonheaders.h" />
-    <ClInclude Include="linkedlist.h" />
-    <ClInclude Include="queue.h" />
-    <ClInclude Include="search.h" />
-    <ClInclude Include="stack.h" />
-    <ClInclude Include="tree.h" />
+    <ClInclude Include="Src\includes\commonheaders.h" />
+    <ClInclude Include="Src\includes\linkedlist.h" />
+    <ClInclude Include="Src\includes\queue.h" />
+    <ClInclude Include="Src\includes\search.h" />
+    <ClInclude Include="Src\includes\stack.h" />
+    <ClInclude Include="Src\includes\tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
