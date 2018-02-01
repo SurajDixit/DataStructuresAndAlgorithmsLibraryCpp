@@ -4,6 +4,7 @@ Code written and published by Suraj U Dixit.
 */
 
 #include "includes\linkedlist.h"
+#include "includes\commonheaders.h"
 
 namespace datastructures 
 {
